@@ -4,10 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin-top: 100px;
-}
-
 h1,
 h2,
 h3 {
@@ -30,6 +26,12 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+.about-paragraphs {
+  margin: 30px 0;
+}
+.about-paragraphs p {
+  margin: 10px;
 }
 
 .navigation-links {
@@ -65,14 +67,6 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
 }
 
 .email-link {
